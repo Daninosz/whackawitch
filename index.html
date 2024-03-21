@@ -1,0 +1,67 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+  
+	<head> 
+		<meta charset="UTF-8"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+		
+		<link rel="stylesheet" href="./css/style.css"> 
+
+		<link rel="preload" as="image" href="./img/no_0.png">
+		<link rel="preload" as="image" href="./img/no_1.png">
+		<link rel="preload" as="image" href="./img/no_2.png">
+		<link rel="preload" as="image" href="./img/no_3.png">
+		<link rel="preload" as="image" href="./img/no_4.png">
+		<link rel="preload" as="image" href="./img/no_5.png">
+		<link rel="preload" as="image" href="./img/no_6.png">
+		<link rel="preload" as="image" href="./img/ye_0.png">
+		<link rel="preload" as="image" href="./img/ye_1.png">
+		<link rel="preload" as="image" href="./img/ye_2.png">
+		<link rel="preload" as="image" href="./img/ye_3.png">
+		<link rel="preload" as="image" href="./img/ye_4.png">
+		<link rel="preload" as="image" href="./img/ye_5.png">
+		<link rel="preload" as="image" href="./img/ye_6.png">
+		<title>King Kid Dynamite</title> 
+	</head> 
+  
+	<body onload="startSpel();"> 
+		<div class="gamehead"> 
+			<div class="stats" id="score">Score: 0</div> 
+			<div class="stats" id="timer">Time: 30s</div> 
+			<div id="endButton">STOP</div>
+		</div> 
+		<div class="game-scaler">
+			<div class="game-container"> 
+				<div class="hole" id="hole0"></div> 
+				<div class="hole" id="hole1"></div> 
+				<div class="hole" id="hole2"></div>
+				<div class="hole" id="hole3"></div> 
+				<div class="hole" id="hole4"></div> 
+				<div class="hole" id="hole5"></div>
+				<div class="hole" id="hole6"></div> 
+			</div>
+		</div>
+		<div id="popover">
+			<div id="popcontent">
+				<div id="poptitle">WHACK A WITCH</div>
+
+				<div id="popstats">Score:00</div>
+
+				<div id="poptext">
+					King Kid Dynamite zoekt heksen in het bos, help hem de heksen te vinden! Pas op dat je hem niet slaat!
+				</div>
+
+				<div class="popaction">
+					<div id="startButton">START</div> 
+				</div>
+			</div>
+		</div>
+
+		<script src="./js/main.js"></script>
+	</body> 
+  
+</html>
